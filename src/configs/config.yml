@@ -1,0 +1,17 @@
+##config
+---
+context: "/"
+group: test
+project: nest-test-case
+local:
+  common:
+    http-port: 8081
+    log-level: info
+development:
+  common:
+    http-port: 8081
+    log-level: info
+production:
+  common:
+    http-port: 8081
+    log-level: info
